@@ -11,6 +11,8 @@
 		93784F462C7E62580083D466 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F452C7E62580083D466 /* ContentView.swift */; };
 		93784F482C7E62590083D466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93784F472C7E62590083D466 /* Assets.xcassets */; };
 		93784F4B2C7E62590083D466 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93784F4A2C7E62590083D466 /* Preview Assets.xcassets */; };
+		93784F652C7E93070083D466 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F642C7E93070083D466 /* ExploreView.swift */; };
+		93784F672C7E93C30083D466 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F662C7E93C30083D466 /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		93784F452C7E62580083D466 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		93784F472C7E62590083D466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93784F4A2C7E62590083D466 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93784F642C7E93070083D466 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		93784F662C7E93C30083D466 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,11 @@
 		93784F422C7E62580083D466 /* shuren.io */ = {
 			isa = PBXGroup;
 			children = (
-				93784F432C7E62580083D466 /* shuren_ioApp.swift */,
+				93784F582C7E91140083D466 /* App */,
+				93784F592C7E911C0083D466 /* Core */,
+				93784F5B2C7E91450083D466 /* Extensions */,
+				93784F5A2C7E913F0083D466 /* Models */,
+				93784F5C2C7E91EB0083D466 /* Utils */,
 				93784F452C7E62580083D466 /* ContentView.swift */,
 				93784F472C7E62590083D466 /* Assets.xcassets */,
 				93784F492C7E62590083D466 /* Preview Content */,
@@ -65,6 +73,100 @@
 				93784F4A2C7E62590083D466 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93784F582C7E91140083D466 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				93784F432C7E62580083D466 /* shuren_ioApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		93784F592C7E911C0083D466 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				93784F5D2C7E920D0083D466 /* Explore */,
+				93784F5E2C7E92170083D466 /* Listings */,
+				93784F612C7E92670083D466 /* MapView */,
+				93784F602C7E925A0083D466 /* Profile */,
+				93784F5F2C7E92320083D466 /* Root */,
+				93784F622C7E927C0083D466 /* TabBar */,
+				93784F632C7E92860083D466 /* Wishlists */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93784F5A2C7E913F0083D466 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93784F5B2C7E91450083D466 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		93784F5C2C7E91EB0083D466 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		93784F5D2C7E920D0083D466 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				93784F642C7E93070083D466 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		93784F5E2C7E92170083D466 /* Listings */ = {
+			isa = PBXGroup;
+			children = (
+				93784F662C7E93C30083D466 /* ListingItemView.swift */,
+			);
+			path = Listings;
+			sourceTree = "<group>";
+		};
+		93784F5F2C7E92320083D466 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		93784F602C7E925A0083D466 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		93784F612C7E92670083D466 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		93784F622C7E927C0083D466 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		93784F632C7E92860083D466 /* Wishlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wishlists;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93784F462C7E62580083D466 /* ContentView.swift in Sources */,
+				93784F672C7E93C30083D466 /* ListingItemView.swift in Sources */,
+				93784F652C7E93070083D466 /* ExploreView.swift in Sources */,
 				93784F442C7E62580083D466 /* shuren_ioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
