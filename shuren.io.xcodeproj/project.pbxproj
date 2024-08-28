@@ -16,6 +16,7 @@
 		93784F6B2C7EA9F90083D466 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */; };
 		93784F6D2C7EB22E0083D466 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F6C2C7EB22E0083D466 /* ListingDetailView.swift */; };
 		93E210A82C7EB45800376007 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E210A72C7EB45800376007 /* ListingImageCarouselView.swift */; };
+		93E210AA2C7EC89600376007 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E210A92C7EC89600376007 /* DestinationSearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 		93784F6C2C7EB22E0083D466 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		93E210A72C7EB45800376007 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
+		93E210A92C7EC89600376007 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 			children = (
 				93784F642C7E93070083D466 /* ExploreView.swift */,
 				93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */,
+				93E210A92C7EC89600376007 /* DestinationSearchView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E210A82C7EB45800376007 /* ListingImageCarouselView.swift in Sources */,
+				93E210AA2C7EC89600376007 /* DestinationSearchView.swift in Sources */,
 				93784F462C7E62580083D466 /* ContentView.swift in Sources */,
 				93784F672C7E93C30083D466 /* ListingItemView.swift in Sources */,
 				93784F652C7E93070083D466 /* ExploreView.swift in Sources */,
