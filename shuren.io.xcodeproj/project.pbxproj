@@ -13,6 +13,7 @@
 		93784F4B2C7E62590083D466 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93784F4A2C7E62590083D466 /* Preview Assets.xcassets */; };
 		93784F652C7E93070083D466 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F642C7E93070083D466 /* ExploreView.swift */; };
 		93784F672C7E93C30083D466 /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F662C7E93C30083D466 /* ListingItemView.swift */; };
+		93784F6B2C7EA9F90083D466 /* SearchAndFilterBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		93784F4A2C7E62590083D466 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		93784F642C7E93070083D466 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		93784F662C7E93C30083D466 /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
+		93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAndFilterBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				93784F642C7E93070083D466 /* ExploreView.swift */,
+				93784F6A2C7EA9F90083D466 /* SearchAndFilterBar.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				93784F462C7E62580083D466 /* ContentView.swift in Sources */,
 				93784F672C7E93C30083D466 /* ListingItemView.swift in Sources */,
 				93784F652C7E93070083D466 /* ExploreView.swift in Sources */,
+				93784F6B2C7EA9F90083D466 /* SearchAndFilterBar.swift in Sources */,
 				93784F442C7E62580083D466 /* shuren_ioApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
